@@ -17,7 +17,7 @@ android {
         abi {
             enable true
             reset()
-            include 'x86', 'x86_64', 'armeabi-v7a', 'armeabi','arm64'
+            include 'x86', 'x86_64', 'armeabi-v7a', 'armeabi', 'arm64'
             universalApk false
         }
     }
@@ -60,6 +60,8 @@ dependencies {
     //json解析
     implementation 'com.google.code.gson:gson:2.8.5'
     implementation 'com.squareup.retrofit2:converter-gson:2.0.2'
+    //JSON
+    implementation 'com.squareup.moshi:moshi:1.1.0'
     //retrofit网络请求框架
     implementation 'com.squareup.retrofit2:retrofit:2.6.0'
 

@@ -1,5 +1,7 @@
 package com.example.test.object;
 
+import com.squareup.moshi.Json;
+
 public class NewsObj {
     private String path ;//新闻对应的网址
     private String image ;//新闻的图片
